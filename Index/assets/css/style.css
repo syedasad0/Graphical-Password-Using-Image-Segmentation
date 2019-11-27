@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font: 400 12px/1.8 "Open Sans", sans-serif;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  height: 100%;
+}
+.parallax-bg {
+  height: 100%;
+  background-size: cover;
+}
+.titan-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgba(0,0,0,0.5)
+}
+.caption-content {
+  font-size: 4em;
+  text-align: center;
+  color: #efefef;
+}
